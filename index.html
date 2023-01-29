@@ -1,0 +1,823 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="my portfolio website to showcase the work i have done so far, the services I provide and all my professionals life"
+    />
+    <meta name="keyword" content="HTML, CSS, JavaScript, Portfolio website" />
+    <title>Mohammed's Portfolio</title>
+    <meta name="author" content="Mohammed Khan" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+      integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <script defer src="index.js"></script>
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
+    <link rel="manifest" href="/site.webmanifest" />
+    <link rel="icon" type="image/x-icon" href="/images/fevicon/favicon.ico" />
+  </head>
+  <body>
+    <header class="header">
+      <img
+        src="images/MOHAMMED KHAN.png"
+        alt="our main logo"
+        class="logo"
+        loading="lazy"
+      />
+
+      <nav class="navbar">
+        <ul class="navbar-lists">
+          <li><a href="#" class="navbar-link home-link">Home</a></li>
+          <li>
+            <a href="#about" class="navbar-link about-link">Skills</a>
+          </li>
+          <li>
+            <a href="#services" class="navbar-link service-link">Services</a>
+          </li>
+          <li>
+            <a href="#portfolio-section" class="navbar-link portfolio-link"
+              >Portfolio</a
+            >
+          </li>
+          <li>
+            <a href="#contact" class="navbar-link contact-link">Contact</a>
+          </li>
+        </ul>
+      </nav>
+
+      <div class="mobile-navbar-btn">
+        <ion-icon name="menu-outline" class="mobile-nav-icon"></ion-icon>
+        <ion-icon name="close-outline" class="mobile-nav-icon"></ion-icon>
+      </div>
+    </header>
+    <!-- ===================================================
+    our main section start
+    =================================================== -->
+    <main>
+      <section class="section-hero section">
+        <div class="container grid grid-two-column">
+          <div class="section-hero-data">
+            <p class="hero-top-data">this is me</p>
+            <h1 class="hero-heading">Mohammed Khan</h1>
+            <p class="hero-para">
+              Hello, my name is Mohammed Khan, and I am from Mumbai. I am a B.Sc
+              final-year student pursuing my IT (information technology) degree
+              from the University of Mumbai (VIVA College).<br />Blood Group =
+              O+
+            </p>
+            <div>
+              <a href="#contact" class="btn hireme-btn">Hire Me</a>
+            </div>
+          </div>
+          <!-- hero section right side -->
+          <div class="section-hero-image">
+            <img
+              src="images/1672298846367.jpg"
+              alt="this is me mohammed khan"
+              class="hero-img"
+              loading="lazy"
+            />
+          </div>
+        </div>
+      </section>
+    </main>
+    <!-- /* ==================================
+    bio data section start
+    ================================== */ -->
+    <section class="section-biodata section" id="about">
+      <div class="container grid grid-two-column">
+        <div class="bio-image">
+          <img
+            src="images/lazy1.jpg"
+            data-src="images/biodata.jpg"
+            alt="my bio data image"
+            loading="lazy"
+          />
+        </div>
+        <!-- right side bio data -->
+        <div class="bio-data">
+          <h2 class="common-heading">Skills</h2>
+          <p>
+            I have developed several projects, mostly focusing on web
+            development. My skills include HTML, CSS, JavaScript, Next.js,
+            Django, MySQL, MongoDB, and more. Additionally, I am intrigued by
+            cloud computing and have gathered information about AWS (Amazon Web
+            Services) and also cloud databases MongoDB Atlas.
+          </p>
+          <div class="bio-data-stats">
+            <div class="bio-stats">
+              <h3>Front-End = [HTML, CSS, JavaScript, Bootstrap, SEO]</h3>
+              <div class="bio-progress-bar">
+                <span>80%</span>
+              </div>
+            </div>
+            <div class="bio-stats">
+              <h3>Back-End = [Python, Django, OOP]</h3>
+              <div class="bio-progress-bar bio-progress-2">
+                <span>95%</span>
+              </div>
+            </div>
+            <div class="bio-stats">
+              <h3>Database = [DBMS, MySQL, MongoDB, MongoDB Atlas, RDS]</h3>
+              <div class="bio-progress-bar bio-progress-3">
+                <span>75%</span>
+              </div>
+            </div>
+            <div class="bio-stats">
+              <h3>
+                Cloud Computing = [Amazon EC2, AWS Lambda, AWS Elastic
+                Beanstalk,
+                &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&ensp;Elastic
+                Load Balancing, Amazon S3]
+              </h3>
+              <div class="bio-progress-bar bio-progress-4">
+                <span>70%</span>
+              </div>
+            </div>
+            <div class="bio-stats">
+              <h3>
+                Soft Skills = [Self-Awareness, Critical Thinking, Adaptability]
+              </h3>
+              <div class="bio-progress-bar bio-progress-5">
+                <span>80%</span>
+              </div>
+            </div>
+          </div>
+          <div class="bio-data-btn">
+            <a href="images/Mohammed's Resume.pdf" download="" class="btn"
+              >Download CV</a
+            >
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- /* ==================================
+    our portfolio section start
+    ================================== */ -->
+    <section class="section section-portfolio" id="portfolio-section">
+      <div class="container">
+        <h2 class="common-heading">Projects</h2>
+        <p>
+          I have Developed Several Projects, Mostly Focusing on Web Development.
+        </p>
+      </div>
+      <div class="p-btns">
+        <div class="btn p-btn" data-btn-num="1">Portfolio</div>
+        <div class="btn p-btn" data-btn-num="2">Websites</div>
+        <div class="btn p-btn" data-btn-num="3">APP's</div>
+      </div>
+
+      <div class="container grid grid-three-column portfolio-images">
+        <div class="img-overlay p-btn--1">
+          <img src="images/folio/1.jpg" alt="my works" loading="lazy" />
+          <div class="overlay">
+            <a
+              href="http://charcounter.thapaonlineclass.com/"
+              target="_blank"
+              class="common-heading"
+              >Project 1</a
+            >
+          </div>
+        </div>
+
+        <div class="img-overlay p-btn--3">
+          <img src="images/folio/4.jpg" alt="my works" loading="lazy" />
+          <div class="overlay">
+            <a
+              href="http://charcounter.thapaonlineclass.com/"
+              target="_blank"
+              class="common-heading"
+              >Project 2</a
+            >
+          </div>
+        </div>
+
+        <div class="img-overlay p-btn--1">
+          <img src="images/folio/3.jpg" loading="lazy" alt="portfolio images" />
+          <div class="overlay">
+            <a
+              href="http://charcounter.thapaonlineclass.com/"
+              target="_blank"
+              class="common-heading"
+              >Project 3</a
+            >
+          </div>
+        </div>
+
+        <div class="img-overlay p-btn--1 p-btn--2">
+          <img src="images/folio/4.jpg" loading="lazy" alt="portfolio images" />
+          <div class="overlay">
+            <a
+              href="http://charcounter.thapaonlineclass.com/"
+              target="_blank"
+              class="common-heading"
+              >Project 4</a
+            >
+          </div>
+        </div>
+
+        <div class="img-overlay p-btn--2">
+          <img src="images/folio/5.jpg" alt="portfolio images" />
+          <div class="overlay">
+            <a
+              href="http://charcounter.thapaonlineclass.com/"
+              target="_blank"
+              class="common-heading"
+              >Project 5</a
+            >
+          </div>
+        </div>
+
+        <div class="img-overlay p-btn--1">
+          <img src="images/folio/1.jpg" alt="portfolio images" loading="lazy" />
+          <div class="overlay">
+            <a
+              href="http://charcounter.thapaonlineclass.com/"
+              target="_blank"
+              class="common-heading"
+              >Project 6</a
+            >
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- /* ==================================
+    our work counter section start
+    ================================== */ -->
+    <section class="section section-work-data" id="services">
+      <div class="container grid grid-four-column">
+        <div>
+          <h2 class="counter-numbers" data-number="2000">0+</h2>
+          <p>Project Completed</p>
+        </div>
+
+        <div>
+          <h2 class="counter-numbers" data-number="6000">0+</h2>
+          <p>Happy Clients</p>
+        </div>
+
+        <div>
+          <h2 class="counter-numbers" data-number="5000">0+</h2>
+          <p>Cups of Coffee</p>
+        </div>
+
+        <div>
+          <h2 class="counter-numbers" data-number="3000">0+</h2>
+          <p>Real Professionals</p>
+        </div>
+      </div>
+    </section>
+    <!-- /* ==================================
+    our work counter section start
+    ================================== */ -->
+    <section class="section section-services" id="portfolio">
+      <div class="container">
+        <h2 class="common-heading">Services Offers</h2>
+        <p>
+          "We offer a range of services to meet your needs. Our team is
+          dedicated to providing high-quality, personalized support to ensure
+          that you get the best results. Whether you need help with a specific
+          project or ongoing support, we have the skills and expertise to assist
+          you."
+        </p>
+      </div>
+      <!-- services offer card -->
+      <div class="container grid grid-three-column">
+        <div class="service-box">
+          <ion-icon name="desktop-outline" class="service-icon"></ion-icon>
+          <h3>Web Design</h3>
+          <p>Lorem ipsum dolor sit amen consenter</p>
+        </div>
+
+        <div class="service-box">
+          <ion-icon name="camera-outline" class="service-icon"></ion-icon>
+          <h3>Photography</h3>
+          <p>Lorem ipsum dolor sit amen consenter</p>
+        </div>
+
+        <div class="service-box">
+          <ion-icon name="logo-react" class="service-icon"></ion-icon>
+          <h3>Web Development</h3>
+          <p>Lorem ipsum dolor sit amen consenter</p>
+        </div>
+
+        <div class="service-box">
+          <ion-icon name="globe-outline" class="service-icon"></ion-icon>
+          <h3>Apps Interface</h3>
+          <p>Lorem ipsum dolor sit amen consenter</p>
+        </div>
+
+        <div class="service-box">
+          <ion-icon
+            name="phone-portrait-outline"
+            class="service-icon"
+          ></ion-icon>
+          <h3>Mobile Apps</h3>
+          <p>Lorem ipsum dolor sit amen consenter</p>
+        </div>
+
+        <div class="service-box">
+          <ion-icon name="code-slash-outline" class="service-icon"></ion-icon>
+          <h3>Clean Code</h3>
+          <p>Lorem ipsum dolor sit amen consenter</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- /* ==================================
+    our testimonial section start
+    ================================== */ -->
+    <section class="section section-testimonial">
+      <div class="container">
+        <h2 class="common-heading">Happy Clients</h2>
+      </div>
+
+      <!-- Swiper -->
+      <div class="swiper mySwiper container">
+        <div class="swiper-wrapper">
+          <!-- section start -->
+          <div class="swiper-slide">
+            <div class="swiper-client-msg">
+              <p>
+                "I recently had a web development project completed by the team
+                at XYZ company, and I couldn't be happier with the results. They
+                were able to bring my vision to life and deliver a product that
+                exceeded my expectations. I highly recommend their services to
+                anyone in need of web development work."
+              </p>
+            </div>
+            <div class="swiper-client-data grid grid-two-column">
+              <figure>
+                <img
+                  src="images/clients/a.jpg"
+                  alt="client review"
+                  loading="lazy"
+                />
+              </figure>
+              <div class="client-data-details">
+                <p>video</p>
+                <p>Entrepreneur</p>
+              </div>
+            </div>
+          </div>
+          <!-- section end -->
+          <div class="swiper-slide">
+            <div class="swiper-client-msg">
+              <p>
+                "I engaged XYZ company for an app development project and was
+                thoroughly impressed with the level of professionalism and
+                expertise they brought to the table. They were able to take my
+                ideas and turn them into a fully functional app that has already
+                received a lot of positive feedback. I will definitely be using
+                their services again in the future."
+              </p>
+            </div>
+            <div class="swiper-client-data grid grid-two-column">
+              <figure>
+                <img
+                  src="images/clients/b.jpg"
+                  alt="client review"
+                  loading="lazy"
+                />
+              </figure>
+              <div class="client-data-details">
+                <p>video</p>
+                <p>Entrepreneur</p>
+              </div>
+            </div>
+          </div>
+          <!-- section end -->
+          <div class="swiper-slide">
+            <div class="swiper-client-msg">
+              <p>
+                "As a business owner, it's crucial that my website is not only
+                visually appealing but also easy to use. The team at XYZ company
+                exceeded my expectations in both regards. They were able to
+                design and develop a website that is not only aesthetically
+                pleasing but also intuitive and user-friendly. I highly
+                recommend their web development services."
+              </p>
+            </div>
+            <div class="swiper-client-data grid grid-two-column">
+              <figure>
+                <img
+                  src="images/clients/c.jpg"
+                  alt="client review"
+                  loading="lazy"
+                />
+              </figure>
+              <div class="client-data-details">
+                <p>video</p>
+                <p>Entrepreneur</p>
+              </div>
+            </div>
+          </div>
+          <!-- section end -->
+          <div class="swiper-slide">
+            <div class="swiper-client-msg">
+              <p>
+                "I recently worked with XYZ company on an app development
+                project and was blown away by the level of creativity and
+                innovation they brought to the table. They were able to take my
+                ideas and turn them into a beautiful and functional app that has
+                already seen a lot of success in the app store. I highly
+                recommend their services to anyone looking for top-notch app
+                development work."
+              </p>
+            </div>
+            <div class="swiper-client-data grid grid-two-column">
+              <figure>
+                <img
+                  src="images/clients/d.jpg"
+                  alt="client review"
+                  loading="lazy"
+                />
+              </figure>
+              <div class="client-data-details">
+                <p>video</p>
+                <p>Entrepreneur</p>
+              </div>
+            </div>
+          </div>
+          <!-- section end -->
+          <div class="swiper-slide">
+            <div class="swiper-client-msg">
+              <p>
+                "I engaged XYZ company for a Django development project and was
+                extremely impressed with the level of professionalism and
+                expertise they brought to the table. They were able to deliver a
+                high-quality product in a timely and efficient manner, and I am
+                extremely satisfied with the results. I highly recommend their
+                Django development services to anyone in need of top-notch web
+                development work."
+              </p>
+            </div>
+            <div class="swiper-client-data grid grid-two-column">
+              <figure>
+                <img
+                  src="images/clients/e.jpg"
+                  alt="client review"
+                  loading="lazy"
+                />
+              </figure>
+              <div class="client-data-details">
+                <p>video</p>
+                <p>Entrepreneur</p>
+              </div>
+            </div>
+          </div>
+          <!-- section end -->
+          <div class="swiper-slide">
+            <div class="swiper-client-msg">
+              <p>
+                "I recently had the pleasure of working with XYZ company on a
+                Django development project, and I was thoroughly impressed with
+                the level of expertise and professionalism they brought to the
+                table. They were able to take my ideas and turn them into a
+                fully functional website that has already received a lot of
+                positive feedback. I highly recommend their Django development
+                services to anyone looking for top-quality web development
+                work."
+              </p>
+            </div>
+            <div class="swiper-client-data grid grid-two-column">
+              <figure>
+                <img
+                  src="images/clients/e.jpg"
+                  alt="client review"
+                  loading="lazy"
+                />
+              </figure>
+              <div class="client-data-details">
+                <p>video</p>
+                <p>Entrepreneur</p>
+              </div>
+            </div>
+          </div>
+          <!-- section end -->
+          <div class="swiper-slide">
+            <div class="swiper-client-msg">
+              <p>
+                "I was in need of a website redesign, and I decided to hire the
+                team at XYZ company to help me with the project. I am so glad I
+                did! They were able to take my outdated website and give it a
+                modern, professional look that has already generated a lot of
+                positive feedback. The team was a pleasure to work with and
+                always went above and beyond to make sure I was satisfied with
+                the end product. I highly recommend their web development
+                services to anyone in need of a high-quality website."
+              </p>
+            </div>
+            <div class="swiper-client-data grid grid-two-column">
+              <figure>
+                <img
+                  src="images/clients/f.jpg"
+                  alt="client review"
+                  loading="lazy"
+                />
+              </figure>
+              <div class="client-data-details">
+                <p>video</p>
+                <p>Entrepreneur</p>
+              </div>
+            </div>
+          </div>
+          <!-- section end -->
+          <div class="swiper-slide">
+            <div class="swiper-client-msg">
+              <p>
+                "I recently engaged XYZ company for an app development project
+                and was blown away by the level of expertise and professionalism
+                they brought to the table. They were able to take my ideas and
+                turn them into a fully functional app that has already received
+                a lot of positive feedback in the app store. The team at XYZ
+                company was a pleasure to work with and always went above and
+                beyond to ensure my satisfaction. I highly recommend their app
+                development services to anyone looking for top-notch results."
+              </p>
+            </div>
+            <div class="swiper-client-data grid grid-two-column">
+              <figure>
+                <img
+                  src="images/clients/g.jpg"
+                  alt="client review"
+                  loading="lazy"
+                />
+              </figure>
+              <div class="client-data-details">
+                <p>video</p>
+                <p>Entrepreneur</p>
+              </div>
+            </div>
+          </div>
+          <!-- section end -->
+          <div class="swiper-slide">
+            <div class="swiper-client-msg">
+              <p>
+                "I recently had the pleasure of working with XYZ company on a
+                full stack web development project, and I couldn't be happier
+                with the results. The team was able to take my ideas and turn
+                them into a beautiful, fully functional website that has already
+                received a lot of positive feedback. The team was a pleasure to
+                work with and always went above and beyond to make sure I was
+                satisfied with the end product. I highly recommend their full
+                stack web development services to anyone looking for top-quality
+                results."
+              </p>
+            </div>
+            <div class="swiper-client-data grid grid-two-column">
+              <figure>
+                <img
+                  src="images/clients/h.jpg"
+                  alt="client review"
+                  loading="lazy"
+                />
+              </figure>
+              <div class="client-data-details">
+                <p>video</p>
+                <p>Entrepreneur</p>
+              </div>
+            </div>
+          </div>
+          <!-- section end -->
+        </div>
+        <div class="swiper-pagination"></div>
+      </div>
+    </section>
+    <!-- /* ==================================
+    our freelancing section start
+    ================================== */ -->
+    <section class="section section-freelancing">
+      <div class="overlay"></div>
+      <div class="container">
+        <h2>I am <span>available</span> for freelancing</h2>
+        <p>
+          "Freelancer available for hire: Skills include Full Stack Web
+          Development
+        </p>
+        <a href="#contact" class="btn">Hire Me</a>
+      </div>
+    </section>
+    <!-- /* ==================================
+    our contact section start
+    ================================== */ -->
+    <section class="section section-contact" id="contact">
+      <div class="container">
+        <h2 class="common-heading">Contact Us</h2>
+      </div>
+
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d60220.66813520085!2d72.78577457630733!3d19.378167463511005!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7ae956bc1587b%3A0x864f53a94baa5145!2sVasai-Virar%2C%20Maharashtra!5e0!3m2!1sen!2sin!4v1672657027256!5m2!1sen!2sin"
+        width="100%"
+        height="250"
+        style="border: 0"
+        allowfullscreen=""
+        loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade"
+      ></iframe>
+
+      <div class="section-contact-main contact-container">
+        <form action="https://formspree.io/f/xzbqbdok" method="POST">
+          <div class="grid grid-two-column">
+            <div>
+              <label for="username"></label>
+              <input
+                type="text"
+                name="Name"
+                id="username"
+                placeholder="Your name..."
+                autocomplete="off"
+                required
+              />
+            </div>
+            <div>
+              <label for="email"></label>
+              <input
+                type="email"
+                name="Email id:-"
+                id="email"
+                placeholder="Enter your E-mail id.."
+                autocomplete="off"
+                required
+              />
+            </div>
+          </div>
+
+          <div>
+            <label for="subject"></label>
+            <input
+              type="text"
+              name="subject"
+              placeholder="Subject"
+              id="subject"
+              autocomplete="off"
+              required
+            />
+          </div>
+
+          <div>
+            <label for="textarea"></label>
+            <textarea
+              name="Client's Message"
+              placeholder="Type the message here..."
+              autocomplete="off"
+              required
+              id="textarea"
+              cols="30"
+              rows="10"
+              minlength="5"
+            ></textarea>
+          </div>
+          <div>
+            <input
+              type="submit"
+              name="submit"
+              id="submit"
+              class="btn"
+              value="send message"
+            />
+          </div>
+        </form>
+      </div>
+    </section>
+
+    <!-- /* ==================================
+    our footer section start
+    ================================== */ -->
+    <footer class="section-footer section" id="footer">
+      <div class="container grid grid-four-column">
+        <div class="f-about">
+          <h3>About</h3>
+          <p>
+            ɪꜱ ᴀ ɴᴀᴍᴇ ɪɴ ᴛʜɪꜱ ʀᴇᴀʟɪᴛʏ.
+          </p>
+        </div>
+        <!-- end -->
+        <div class="f-links">
+          <h3>Links</h3>
+          <ul>
+            <li>
+              <span><ion-icon name="arrow-forward-outline"></ion-icon></span
+              ><a href="#">home</a>
+            </li>
+            <li>
+              <span><ion-icon name="arrow-forward-outline"></ion-icon></span
+              ><a href="#about">Skills</a>
+            </li>
+            <li>
+              <span><ion-icon name="arrow-forward-outline"></ion-icon></span
+              ><a href="#services">Services</a>
+            </li>
+            <li>
+              <span><ion-icon name="arrow-forward-outline"></ion-icon></span
+              ><a href="#portfolio-section">Portfolio</a>
+            </li>
+            <li>
+              <span><ion-icon name="arrow-forward-outline"></ion-icon></span
+              ><a href="#contact">Contact</a>
+            </li>
+          </ul>
+        </div>
+        <!-- end -->
+        <div class="f-services">
+          <h3>Services</h3>
+
+          <ul>
+            <li>
+              <span><ion-icon name="arrow-forward-outline"></ion-icon></span>
+              <a href="#services">Web Design</a>
+            </li>
+            <li>
+              <span><ion-icon name="arrow-forward-outline"></ion-icon></span>
+              <a href="#services">Photography</a>
+            </li>
+            <li>
+              <span><ion-icon name="arrow-forward-outline"></ion-icon></span>
+              <a href="#services">Web Development</a>
+            </li>
+            <li>
+              <span><ion-icon name="arrow-forward-outline"></ion-icon></span>
+              <a href="#services">Apps Interface</a>
+            </li>
+            <li>
+              <span><ion-icon name="arrow-forward-outline"></ion-icon></span>
+              <a href="#services">Mobile Apps</a>
+            </li>
+          </ul>
+        </div>
+        <!-- end -->
+        <div class="f-address">
+          <h3>Have a Questions?</h3>
+          <address>
+            <div>
+              <p>
+                <span><ion-icon name="location-outline"></ion-icon></span>Vasai,
+                India
+              </p>
+            </div>
+            <div>
+              <p>
+                <span><ion-icon name="call-outline"></ion-icon></span
+                ><a href="tel:+917057045789">+917057045789</a>
+              </p>
+            </div>
+            <div>
+              <p>
+                <span><ion-icon name="mail-outline"></ion-icon></span
+                ><a href="mailto:mehmed16@gmail.com">support@mehmed.com</a>
+              </p>
+            </div>
+          </address>
+        </div>
+      </div>
+
+      <div class="container">
+        <div class="f-social-icons">
+          <a href="https://www.linkedin.com/in/mehmedx7/" target="_blank"
+            ><ion-icon name="logo-linkedin" class="icons"></ion-icon
+          ></a>
+          <a href="https://www.instagram.com/mehmedx7/" target="_blank"
+            ><ion-icon name="logo-instagram" class="icons"></ion-icon
+          ></a>
+          <a href="http://wa.me/+917057045789" target="_blank"
+            ><ion-icon name="logo-whatsapp" class="icons"></ion-icon
+          ></a>
+        </div>
+        <div class="f-credits">
+          <p>
+            Copyright &copy; 2023 Mehmed Company. All Rights Reserved.
+            
+          </p>
+        </div>
+      </div>
+    </footer>
+
+    <!-- /* ==================================
+    our javascript section start
+    ================================== */ -->
+
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+  </body>
+</html>
